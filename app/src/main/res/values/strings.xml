@@ -5,8 +5,13 @@
     <string name="label_weight">Weight</string>
     <string name="label_your_bmi">Your BMI</string>
     <string name="button_calculate">Calculate BMI</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_health_guidance">Guidance</string>
+    <string name="button_decrease_weight">-</string>
+    <string name="button_increase_weight">+</string>
     <string name="placeholder_result">--</string>
     <string name="placeholder_description">Press Calculate</string>
+    <string name="placeholder_guidance">Move the sliders and calculate your BMI.</string>
 
     <string name="value_height">%1$d cm</string>
     <string name="value_weight">%1$d kg</string>
@@ -16,4 +21,14 @@
     <string name="bmi_overweight">Overweight</string>
     <string name="bmi_obesity">Obesity</string>
     <string name="bmi_extreme_obesity">Extreme obesity</string>
+
+    <string name="bmi_underweight_guidance">Your BMI is below the usual healthy range. Consider speaking with a health professional if this is unexpected.</string>
+    <string name="bmi_normal_guidance">Your BMI is in the usual healthy range. Keep supporting it with balanced food, sleep, and regular movement.</string>
+    <string name="bmi_overweight_guidance">Your BMI is above the usual healthy range. Small, consistent habits can make progress easier to maintain.</string>
+    <string name="bmi_obesity_guidance">Your BMI is in a higher-risk range. A health professional can help you choose safe next steps.</string>
+    <string name="bmi_extreme_obesity_guidance">Your BMI is in a very high-risk range. Please consider professional medical guidance for a safe plan.</string>
+
+    <string name="health_guidance_title">About BMI</string>
+    <string name="health_guidance_message">BMI is a simple screening estimate based on height and weight. It does not measure body fat, muscle mass, age, sex, or medical history, so it should not be used as a diagnosis.</string>
+    <string name="dialog_ok">OK</string>
 </resources>
