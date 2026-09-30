@@ -80,7 +80,7 @@
                     android:id="@+id/decreaseWeightButton"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:text="-" />
+                    android:text="@string/button_decrease_weight" />
 
                 <TextView
                     android:id="@+id/weightTextView"
@@ -96,7 +96,7 @@
                     android:id="@+id/increaseWeightButton"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:text="+" />
+                    android:text="@string/button_increase_weight" />
 
             </LinearLayout>
         </LinearLayout>
@@ -135,19 +135,53 @@
 
             <TextView
                 android:id="@+id/resultDescriptionTextView"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/placeholder_description"
+                android:textAlignment="center"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
+            <TextView
+                android:id="@+id/resultGuidanceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/placeholder_guidance"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="@string/button_reset" />
+
+        <Button
+            android:id="@+id/healthGuidanceButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="@string/button_health_guidance" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/calculateButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="@string/button_calculate" />
 
 </LinearLayout>

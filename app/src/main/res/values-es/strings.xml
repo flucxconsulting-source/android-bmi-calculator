@@ -6,8 +6,13 @@
     <string name="label_weight">Peso</string>
     <string name="label_your_bmi">Tu IMC</string>
     <string name="button_calculate">Calcular IMC</string>
+    <string name="button_reset">Reiniciar</string>
+    <string name="button_health_guidance">Guía</string>
+    <string name="button_decrease_weight">-</string>
+    <string name="button_increase_weight">+</string>
     <string name="placeholder_result">--</string>
     <string name="placeholder_description">Pulsa Calcular</string>
+    <string name="placeholder_guidance">Mueve los controles y calcula tu IMC.</string>
 
     <string name="value_height">%1$d cm</string>
     <string name="value_weight">%1$d kg</string>
@@ -17,4 +22,14 @@
     <string name="bmi_overweight">Sobrepeso</string>
     <string name="bmi_obesity">Obesidad</string>
     <string name="bmi_extreme_obesity">Obesidad extrema</string>
+
+    <string name="bmi_underweight_guidance">Tu IMC está por debajo del rango saludable habitual. Considera hablar con un profesional de salud si no esperabas este resultado.</string>
+    <string name="bmi_normal_guidance">Tu IMC está en el rango saludable habitual. Mantén buenos hábitos de alimentación, descanso y movimiento.</string>
+    <string name="bmi_overweight_guidance">Tu IMC está por encima del rango saludable habitual. Los hábitos pequeños y constantes suelen ser más fáciles de mantener.</string>
+    <string name="bmi_obesity_guidance">Tu IMC está en un rango de mayor riesgo. Un profesional de salud puede ayudarte a elegir próximos pasos seguros.</string>
+    <string name="bmi_extreme_obesity_guidance">Tu IMC está en un rango de riesgo muy alto. Considera orientación médica profesional para crear un plan seguro.</string>
+
+    <string name="health_guidance_title">Sobre el IMC</string>
+    <string name="health_guidance_message">El IMC es una estimación simple basada en altura y peso. No mide grasa corporal, masa muscular, edad, sexo ni historial médico, por eso no debe usarse como diagnóstico.</string>
+    <string name="dialog_ok">Aceptar</string>
 </resources>
